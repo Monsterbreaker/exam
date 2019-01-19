@@ -1,0 +1,84 @@
+.paperEditor{
+    height: 420px;
+}
+
+.paperEditor::-webkit-scrollbar {
+    display: none;
+}
+
+.paperNav{
+    margin-bottom: 10px;
+}
+
+.paper{
+    padding: 20px 20px 20px 20px;
+    border: 2px solid grey;
+    height: 370px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    position: fixed;
+    width: 80%;
+    height: 600px;
+}
+
+.paperInfo .paperInfoLabel{
+    float:left;
+}
+
+.paperInfo #paperName {
+    border-bottom: 1px solid grey;
+}
+
+.paperInfo #limitedTime{
+    border-bottom: 1px solid grey;
+}
+
+.paperContent{
+
+}
+
+.paperContent #choiceQuestions{
+
+}
+
+.paperContent .paperInfoLabel{
+    float: left;
+}
+
+table {
+    width: 80%;
+    margin: 1em 0 2em;
+    font-size: .938em;
+    border-collapse: collapse;
+    position: fixed;
+}
+
+caption {
+    margin: 1em 0 .7em 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    letter-spacing: .5px;
+    color: #fff;
+}
+
+tbody{
+    overflow-y: scroll;
+}
+
+th {
+    text-align: left;
+    padding: .5em .5em;
+    font-weight: bold;
+    color: #ffffff;
+    border-top: solid 3px rgba(55, 178, 255, 0.71);
+    border-bottom: solid 1px rgba(55, 178, 255, 0.71);
+    background: #37b2ff;
+}
+
+td {
+    padding: .5em .5em;
+    border-bottom: solid 1px #ccc;
+}
+
